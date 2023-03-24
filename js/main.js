@@ -24,7 +24,7 @@ let link4 = document.querySelector('.project4');
 
 link4.addEventListener('click', function (e) {
 	e.preventDefault();
-	window.open('https://google.com');
+	window.open('https://svoya-dolya.weblium.site');
 })
 
 let link5 = document.querySelector('.project5');
