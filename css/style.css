@@ -267,11 +267,15 @@ section {
 
 /* about */
 .about {
-	max-width: 900px;
+	max-width: 880px;
 	margin: 0 auto;
 	padding-top: 50px;
-	text-align: center;
-	font-size: 1.6em;
+}
+
+.about p {
+	font-size: 1.2em;
+	padding: 10px 0px;
+	text-indent: 30px;
 }
 
 @media(max-width:991px) {
@@ -289,7 +293,13 @@ section {
 		width: 100%;
 	}
 
+	.about {
+		width: 95%;
+	}
 
+	.about p {
+		text-indent: 0px;
+	}
 }
 
 @media screen and (max-width:500px) {
@@ -311,6 +321,7 @@ section {
 	.work .work__content .work__card {
 		margin: 50px 20px;
 	}
+
 }
 
 @media(max-width:380px) {
